@@ -1,0 +1,39 @@
+.Container {
+    width: 100%;
+    height: 90vh;
+    background: rgba(174, 255, 229, 0.578);
+
+    .banner {
+        width: 100%;
+        height: 50vh;
+
+        >img {
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    .routes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 0 1rem;
+        margin-top: 2rem;
+
+        a {
+            text-decoration: none;
+            color: #fefefe;
+            padding: 2rem 2.1rem;
+            border: 3px solid rgb(17, 15, 15);
+            background-color: rgb(82, 83, 82);
+            border-radius: 10px;
+            font-weight: 900;
+            transition: all .3s;
+
+            &:hover {
+                transform: translateY(-10px);
+            }
+        }
+    }
+}
